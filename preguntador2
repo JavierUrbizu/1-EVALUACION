@@ -1,0 +1,5 @@
+# Programa de iniciación
+# Me pregunta dos números y los suma
+a=input("Número 1:")
+b=input("Número 2:")
+print(a+b)
