@@ -1,0 +1,11 @@
+# Haz la media de varios números 
+def calcula_media():
+    #inicializando las variables
+    n1=int(input("número1: "))
+    n2=int(input("número2: "))
+    n3=int(input("número3: "))
+    suma=n1+n2+n3
+    media=suma/3
+    print(media)
+    
+calcula_media()
