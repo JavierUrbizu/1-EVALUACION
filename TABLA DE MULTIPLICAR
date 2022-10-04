@@ -1,0 +1,7 @@
+#Este programa te muestra la tabla de multiplicar de cualquier número, por orden numérico. 
+def tabla_1():
+    ntabla=input("dime el número de tabla: ")
+    for cont in range(0,11):
+        print(str(ntabla)+"*"+str(cont)+"= "+str(int(ntabla)*cont))
+        
+tabla_1()
