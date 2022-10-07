@@ -1,0 +1,9 @@
+#Otro programa con bucles
+#cuenta los pares
+def cuenta_pares():
+    for cont in range(0,100,2):
+        print(cont)
+        print("ES PAR")
+    print("estos son los pares")    
+
+cuenta_pares()
