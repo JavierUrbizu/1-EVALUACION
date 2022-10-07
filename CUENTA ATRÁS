@@ -1,0 +1,8 @@
+#Otro programa con bucles
+#cuenta atrás
+def cuenta_atras():
+    for cont in range(10,0,-1):
+        print(cont)
+    print("DESPEGUE...")    
+
+cuenta_atras()
