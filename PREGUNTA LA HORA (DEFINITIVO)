@@ -1,0 +1,15 @@
+# Te pregunta la horay te responde de forma amable
+def relojero():   
+    hora=int(input("Dime que hora es: "))
+    if(hora<=0 or hora>24):
+        print("Hora errónea,revisa tu móvil")
+    else:
+        if(hora>=6 and hora<=12):
+            print("Buenos días Javier")
+        else:
+            if(hora>12 and hora<20):
+                print("Buenas tardes Javier")
+            else:
+                print("Buenas noches Javier")
+
+relojero()
