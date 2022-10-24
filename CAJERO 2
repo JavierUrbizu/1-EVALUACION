@@ -1,0 +1,19 @@
+def meto_dinero():
+    print("Introduzca el dinero que desea ingresar")
+    dinero=int(input())
+    print("Ha ingresado:") 
+    print(str(dinero)+"€")
+    seguir=True
+    while(seguir==True):
+        respuesta=input("¿Desea sacar dinero de su cuenta?:")
+        if(respuesta=="Si" or respuesta=="si" or respuesta=="SI"):
+            print("Cuánta cantidad desea sacar?")
+            dinero_2=int(input())
+            print("Ha sacado")
+            print(str(dinero_2)+"€")
+            dinero_3=dinero-dinero_2
+            print("Le quedan: "+str(dinero_3)+"€")
+        else:
+            print("De acuerdo. Hasta la próxima")
+    
+meto_dinero()
