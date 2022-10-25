@@ -1,0 +1,33 @@
+#Cajero con menú
+#Te pregunta lo que quieres hacer
+#Saca el dinero 
+#Te actualiza el saldo 
+
+def menu():
+    print("* ///  **  MENU   **  ///")
+    print("1. Ingresar dinero")
+    print("2. Sacar dinero ")
+    print("3. Salir")
+menu()
+    
+def ingresar_dinero(saldo):
+    dinero=int(input("¿Cuánto dinero quieres ingresar?: "))
+    saldo=saldo+dinero
+    return(saldo)
+    
+def main():
+    saldo=0
+    seguir=True 
+    while(seguir==True):
+        muestra_menu()
+        respuesta=int(input("¿Qué deseas hacer?: "))
+        if (respuesta==1):
+            saldo=ingresar_dinero(saldo)
+            seguir=True
+        if (respuesta==2):
+            saldo=sacar_dinero(saldo)
+            seguir=True
+        if (respuesta==3):
+            print("Gracias,hasta pronto")
+            seguir=False
+main()
