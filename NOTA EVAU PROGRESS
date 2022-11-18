@@ -1,0 +1,8 @@
+def nota_corte():
+    media=0
+    bach1=float(input("Introduzca su nota de 1º BACH 🙌 : "))
+    bach2=float(input("Introduzca su nota de 2º BACH 😎 : "))
+    media= bach1 + bach2
+    media_fin= media/2
+    print("Tu media de bachillerato es 👀💕 :" + str(media_fin))
+    if()
