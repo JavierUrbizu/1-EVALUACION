@@ -1,0 +1,11 @@
+def bucle(): 
+    continuar=True
+    while(continuar==True):
+        respuesta=int(input("Dime un número par: "))
+        if(respuesta%2==0):
+            print("Lo has hecho correctamente, oso ondo")
+            continuar=False
+        else:
+            print("No es número par, intentalo de nuevo")
+
+bucle()
